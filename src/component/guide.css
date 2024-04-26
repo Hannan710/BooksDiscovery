@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.guide-container {
+    height:550vh;
+    width: 85%;
+    margin: 10% auto; 
+    border-radius: 25px;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.guide-video-video{
+    width: 70%;
+    height:75vh;
+    margin-top:220%;
+    z-index:1;
+    border-radius: 25px;
+    margin-left: 15%;
+}
+
+
+
+.guide-book h2{
+    font-size: 100px;
+    /* color: black; */
+}
+.guide-book span{
+    color:red;
+}
+.frontpage p{
+    padding-top: 5%;
+    padding-right: 70%;
+    font-size: 30px;
+}
+.frontpage span{
+    color:red;
+}
+.frontpage img{
+    margin-top:2%;
+    border-radius: 20px;
+}
+
+.homepage p{
+    padding-top: 3%;
+    padding-right: 70%;
+    font-size: 30px;
+    
+}
+.homepage span{
+    color:red;
+}
+.homepage img{
+    margin-top:2%;
+    border-radius: 20px;
+}
+.homepagep{
+    font-weight: lighter;
+    font-size:17px;
+    width: 150%;
+  
+}
+/* -------------------- */
+.aboutpage p{
+    padding-top: 5%;
+    padding-right: 70%;
+    font-size: 30px;
+}
+.aboutpage span{
+    color:red;
+}
+.aboutpage img{
+    margin-top:2%;
+    border-radius: 20px;
+}
+/* --------------------- */
+.novelpage p{
+    padding-top: 3%;
+    padding-right: 70%;
+    font-size: 30px;
+    
+}
+.novelpage span{
+    color:red;
+}
+.novelpage img{
+    margin-top:2%;
+    border-radius: 20px;
+}
+.novelpagep{
+    font-weight: lighter;
+    font-size:17px;
+    width: 150%; 
+}
+/* --------------------- */
+
+.childpage p{
+    padding-top: 3%;
+    padding-right: 70%;
+    font-size: 30px;
+    
+}
+.childpage span{
+    color:red;
+}
+.childpage img{
+    margin-top:2%;
+    border-radius: 20px;
+}
+.childpagep{
+    font-weight: lighter;
+    font-size:17px;
+    width: 150%; 
+}
+
+@media only screen and (max-width: 768px) {
+    .guide-container {
+      width: 90%;
+      margin: 5% auto;
+      height: auto; /* Adjust height as per content */
+    }
+  
+    .guide-book h2 {
+      font-size: 60px; /* Adjust font size */
+    }
+  
+    .frontpage p,
+    .homepage p,
+    .aboutpage p,
+    .novelpage p,
+    .childpage p {
+      padding-right: 10%; /* Adjust padding */
+      font-size: 20px; /* Adjust font size */
+    }
+  
+    .homepagep,
+    .novelpagep,
+    .childpagep {
+      font-size: 14px; /* Adjust font size */
+      width: 100%; /* Adjust width */
+    }
+  }

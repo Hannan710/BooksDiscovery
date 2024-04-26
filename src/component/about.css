@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-container{
+    background-color:rgb(235, 235, 235);
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 12%;
+    padding-top: 5%;
+    height: 150vh;
+    padding-left:5% ;
+    border-radius: 25px;
+    margin-bottom:  10%;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.about-container h2{
+    color: #ff0000;
+    font-size: 35px;
+}
+.about-section1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    
+}
+.about-aim{
+    
+    height: 20vh;
+    width: 50%;
+    background-color: rgb(225, 193, 110);
+    margin-right: 2%;
+}
+.about-aim h3{
+    padding: 10px;
+}
+.about-aim p{
+    padding: 7px 10px;
+}
+.about-vision{
+    
+    height: 20vh;
+    width: 35%;
+    background-color: #00fabf;
+    margin-left: 5%;
+    
+    
+   
+
+}
+.about-vision h3{
+    padding-top: 10px;
+}
+.about-vision p{
+    padding: 10px 10px;
+}
+/* ----------------------------- */
+.about-section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+
+}
+.about-book{
+    /* border: 1px solid black; */
+    height: 70vh;
+    width: 50%;
+    background-color: rgb(205, 127, 50);
+    margin-left: 2px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+.about-book-img p{
+    padding-top: 10%;
+    
+}
+
+.about-book-img img{
+    width: 300px; 
+    height: 200px; 
+    margin-top: 20%;
+}
+
+.about-novel{
+    /* border: 1px solid black; */
+    height: 20vh;
+    width: 45%;
+    background-color: rgb(234, 221, 202);
+    margin-left: 3%;
+    border-radius: 25%;
+    margin-top: 5%;
+    padding: 5px 5px;
+}
+.about-novel-img{
+
+    padding-top: 5%;
+    border-radius: 25px;
+    width: 95%;
+    height: 20vh;
+}
+
+.about-child{
+    /* border: 1px solid black; */
+    height: 20vh;
+    width: 45%;
+    background-color: rgb(234, 221, 202);
+    margin-left: -45%;
+    border-radius: 25%;
+    margin-top: 27%;
+    padding: 5px 5px;
+    
+   
+}
+.about-child-img{
+
+    padding-top: 5%;
+    border-radius: 25px;
+    width: 95%;
+    height: 20vh;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .about-container {
+        width: 100%;
+        margin-left: -2%;
+        margin-top: 27%;
+        margin-bottom: 2%;
+    }
+
+    .about-section1,
+    .about-section2 {
+        flex-direction: column;
+    }
+
+    .about-aim,
+    .about-vision,
+    .about-book,
+    .about-novel,
+    .about-child {
+        width: 90%;
+        margin-right: 0px;
+        margin-bottom: 10%;
+        height: 100%;
+    }
+
+    .about-section2 .about-book,
+    .about-section2 .about-novel {
+        margin-bottom: 0;
+        height: 55%;
+    }
+
+    .about-book-img img,
+    .about-child {
+        display: none; /* Hide these elements on smaller screens */
+    }
+
+    .about-book,
+    .about-novel,
+    .about-child {
+        height: auto; /* Set height to auto for responsiveness */
+        width: 90%; /* Adjusted width for responsiveness */
+        margin-left: 5%; /* Adjusted margin for spacing */
+        margin-right: 5%; /* Adjusted margin for spacing */
+        margin-bottom: 5%; /* Adjusted margin for spacing */
+    }
+}

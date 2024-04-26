@@ -1,0 +1,142 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fiction-background { 
+    /* background-image: linear-gradient(to bottom, rgba(28, 35, 25, 0.8), rgba(8, 8, 8, 0.8)), url(./images/logo/child.jpeg); */
+    height: 65vh;
+    border-radius: 15px;
+    margin: 9rem;
+}
+
+
+.fiction-page { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.search-bar-fiction { 
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 17%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 8%;
+    background-image: linear-gradient(to bottom, rgba(28, 35, 25, 0.8), rgba(8, 8, 8, 0.8)), url(./images/logo/chil3.avif);
+    height: 80vh;
+    width: 100%;
+}
+
+.search-bar-fiction h2 { 
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-right: 0;
+    color: #ffb700;
+    font-style: oblique;
+}
+
+.highlighted-fiction { 
+    color: #ffb700;
+    font-style: italic;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.fiction-btn { /* Changed 'novels-btn' to 'fiction-btn' */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fiction-btn:hover { /* Changed 'novels-btn:hover' to 'fiction-btn:hover' */
+    background-color: #ff0000;
+}
+
+.search-results-fiction { /* Changed 'search-results-novels' to 'search-results-fiction' */
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 140%;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.search-result-fiction { /* Changed 'search-result-novels' to 'search-result-fiction' */
+    flex: 0 0 calc(25% - 20px);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 1%;
+    text-align: left;
+    max-width: 300px;
+}
+
+.search-result-fiction:hover { /* Changed 'search-result-novels:hover' to 'search-result-fiction:hover' */
+    transform: scale(1.05);
+    background-color: #ff9900;
+}
+
+.search-result img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .fiction-background {
+        margin: 5rem;
+        height: 60vh;
+    }
+
+    h2 {
+        padding-right: 0;
+    }
+
+    .search-results-fiction {
+        margin-top: 50%;
+        height: 60vh;
+    }
+
+    .search-result-fiction {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    input[type="text"] {
+        width: 60%;
+        max-width: unset;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .fiction-background {
+        margin: 12rem;
+        height: 60vh;
+    }
+
+
+    h2 {
+        font-size: 20px;
+        
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+}

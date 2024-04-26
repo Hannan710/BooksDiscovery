@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-box{
+    background-color: rgb(20, 19, 19);
+    width: 100%;
+    height: 35vh;
+    
+}
+.footer-box .beelogo img{
+    width: 8%;
+    height: auto;
+    margin-top: 4%;
+    cursor: pointer;
+    left: 10%;
+    position: absolute;
+}
+.footer-search {
+    margin-right: 8%;
+    display: inline-block;
+    line-height: 25px;
+    margin-top: 4%;
+    padding-left: 2%;
+}
+.footer-search h3{
+color: #ff9900;
+}
+.footer-search ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.footer-search ul li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 17px; 
+}
+.footer-search ul li a:hover{
+    color: red;
+}
+.sign-up-button .footer-btn{
+    margin-left: 50%;
+    padding: 6px;
+    background-color: #ff9900;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.sign-up-button .footer-btn:hover{
+    background-color: red;
+}
+.sign-up-button .footer-btn img{
+    width: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-box {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box .beelogo img {
+        display: none; /* Hide .beelogo section */
+    }
+  
+
+    .footer-search {
+        margin-top: 10px; /* Adjust as needed */
+        text-align: center; /* Center align text */
+    }
+
+    .footer-search h3 {
+        margin: 0; /* Reset margin */
+        margin-bottom: 5px; /* Adjust as needed */
+    }
+
+    .footer-search ul {
+        justify-content: center;
+    }
+
+    .footer-search ul li {
+        margin: 0 10px; /* Adjust as needed */
+    }
+
+    .sign-up-button {
+        margin-top: 10px; /* Adjust as needed */
+        text-align: center; /* Center align button */
+    }
+
+    .sign-up-button .footer-btn {
+        margin-left: 0; /* Reset margin */
+    }
+}
+
