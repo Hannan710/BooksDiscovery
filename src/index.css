@@ -108,16 +108,16 @@ video {
 @media (max-width: 368px) {
   nav {
     padding: 0 5px; 
+    
   }
   nav ul li {
     margin-left: 5px; 
   }
-  .content {
-    margin-top: 50%; 
-  }
+ 
   
   .content h1 {
     font-size: 30px; 
+   
    
   }
   .content a {
